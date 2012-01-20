@@ -1,0 +1,35 @@
+new 1
+print
+step
+print
+step
+print
+step
+print
+step
+print
+step
+print
+steps 10
+print
+init
+0 0
+-1 -1
+print
+step
+print
+new 2
+print
+step
+print
+init
+0 0
+0 1
+1 0
+1 1
+-1 -1
+print
+step
+print
+steps 10
+print

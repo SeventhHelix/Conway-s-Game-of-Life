@@ -7,25 +7,22 @@ How to play
 -----------
 Commands:
       
-new n    -     Creates a new nxn grid and opens a 500x500 window
+new n    -     Creates a new nxn grid and opens a 500x500px window
 
-init     -     Enters initialization mode
-               Takes sets of two numbers x and y and turns that cell on
-               Stops when -1 -1 is read
-               Ex: init 0 0 1 1 2 2 -1 -1
-               Turns on cells (0,0) (1,1) (2,2) and exits initialization mode
+init     -     Enters initialization mode. Takes sets of two numbers x and y and turns that cell on. The init mode ends when -1 -1 is read.
+Ex: init 0 0 1 1 2 2 -1 -1
+Turns on cells (0,0) (1,1) (2,2) and exits initialization mode
 
 print    -     Prints the current grid in the terminal window
 
-step     -     Runs one tick of the grid
-                     Updates the graphical window
+step     -     Runs one tick of the grid and updates the window
+
 
 steps n  -     Runs n ticks of the graphical window
 
 random n -     Randomly turns n% of the grid on and (100-n)% off
 
-auto n   -     Automatically steps every n milliseconds
-               Will run infinitely. Only way to stop is to Ctrl-c or end the process
+auto n   -     Automatically steps every n milliseconds (Will run infinitely. Only way to stop is to Ctrl-c or end the process)
 
 Compiling and running
 ---------------------

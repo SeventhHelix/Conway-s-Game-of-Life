@@ -1,0 +1,21 @@
+new 12
+init
+2 2
+2 1
+2 3
+4 5
+5 5
+4 6
+7 7
+7 8
+6 8
+-1 -1
+print
+step
+print
+step
+print
+steps 100
+print
+steps 101
+print
